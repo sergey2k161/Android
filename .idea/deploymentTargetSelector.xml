@@ -8,9 +8,6 @@
       <SelectionState runConfigName="calculate_20_percent_tip()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ExampleInstrumentedTest">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="TipUITests">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
