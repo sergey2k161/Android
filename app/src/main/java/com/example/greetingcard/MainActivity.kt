@@ -29,18 +29,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             GreetingCardTheme  {
-                DiceRollerApp()
+                GreetingPreview()
             }
         }
     }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
 }
 
 @Composable
@@ -71,7 +63,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier){
 
 @Preview
 @Composable
-fun DiceRollerApp() {
+fun GreetingPreview() {
     DiceWithButtonAndImage(modifier = Modifier
         .fillMaxSize()
         .wrapContentSize(Alignment.Center)
